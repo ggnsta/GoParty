@@ -6,5 +6,4 @@ GoParty is an application which can help you find a company to attend some event
 
   - [Backlog](https://trello.com/b/iXG71Upi/goparty-backlog)
   - [Mobile client repo](https://github.com/ViachaslauPratasenia/GoParty-mobile-client)
-  - [Web client repo](https://github.com/NasterVill/GoParty-web-client)
   - [Back end repo](https://github.com/valerycadovic/GoParty-backend)
