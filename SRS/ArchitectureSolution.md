@@ -12,6 +12,7 @@ The application itself is supposed to:
   GoParty application has a `distributed` `client-server` deployment model. The back end of the application is storing and processing data on one server, so that the database is not separated from the represenation model. This solution makes the architechture less flexible but provides greater performance and  less code complexity.
 
 ### 3. Technologies description
+
 | Objective | Technology (and/or Language) | 
 |:---|:---|
 |Mobile client|Kotlin|
@@ -27,6 +28,7 @@ The application itself is supposed to:
 
 ### 4. Quality markers
 Here are listed all the important  quality markers
+
 | Category |  Quality marker| 
 |:---|:---|
 |Desing quality|Conceptual integrity|
