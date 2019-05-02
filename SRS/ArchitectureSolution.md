@@ -55,6 +55,11 @@ Here are listed all the important  quality markers
 ## Comparison:
   In general architectural idea was successfully implemented. But there are some issues inside of concrete layers. All of this differences are trivial and temporarily that's why it's not shown on another diagram. 
   
+## Ways of improvement:
+  1. Move mappers to separated interface 
+  2. Improve exception handling mechanism
+  3. Utilize DependencyResolver component due to using NinjectModule implementation for each binding context.
+  
 ## Mobile client
 
 ### As to be
@@ -81,8 +86,8 @@ While developing the application, a decision was made, to combine first and seco
 ## Comparison:
 
 The architecture solution that was chosen for mobile client can be considred as a "light" clean architecture, with the interpretation, which provides an ability for easing the development and support because of lesser complexity, but, in future, this may bring some issues with logic refactoring if one will be required. Our team decided to go with this solution, because we thought, that the issues with buisiness logic should be handeled on the erlier levels of project developmnet, long before the actual code writing begins
-  
-## Ways of improvement:
-  1. Move mappers to separated interface 
-  2. Improve exception handling mechanism
-  3. Utilize DependencyResolver component due to using NinjectModule implementation for each binding context.
+
+## Class diagrams
+
+[Monile client](https://github.com/NasterVill/GoParty/blob/master/Resources/Diagrams/Class/Mobile_Client_Diagram.png)
+[Back end]()
