@@ -78,7 +78,8 @@ First level serves to present the information to the user, second one is interra
 While developing the application, a decision was made, to combine first and second, third and fourth layers respectively in order to ease the overall development. In this "modified" architecture the first layer (User Interface) is responsible for both presenting the inforamtion and interacting with the user, the second one (Buisiness logic) handles data processing and holds application's core logic, the third layer (Data layer) is responsible for the communication with the back end application.
 
 ## Comparison:
-    The architecture solution that was chosen for mobile client can be considred as a "light" clean architecture, with the interpretation, which provides an ability for easing the development and support because of lesser complexity, but, in future, this may bring some issues with logic refactoring if one will be required. Our team decided to go with this solution, because we thought, that the issues with buisiness logic should be handeled on the erlier levels of project developmnet, long before the actual code writing begins
+
+The architecture solution that was chosen for mobile client can be considred as a "light" clean architecture, with the interpretation, which provides an ability for easing the development and support because of lesser complexity, but, in future, this may bring some issues with logic refactoring if one will be required. Our team decided to go with this solution, because we thought, that the issues with buisiness logic should be handeled on the erlier levels of project developmnet, long before the actual code writing begins
   
 ## Ways of improvement:
   1. Move mappers to separated interface 
