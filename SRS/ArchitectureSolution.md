@@ -1,7 +1,7 @@
 ﻿# Architechture solution research
 
 ### 1. Application type
-  GoParty is a `Mobile Application`. This type was chosen becuase nowadays smartphones are getting all over the place and are being integrated in our lives deeply. This type provides availability and simplicity of usage.
+  GoParty is a `Mobile Application`. This type was chosen because nowadays smartphones are getting all over the place and are being integrated in our lives deeply. This type provides availability and simplicity of usage.
 The application itself is supposed to:
 * Have a minimalistic user-friendly interface
 * Use internet resources wisely and be able to sustain its work with flaky internet connection
@@ -50,7 +50,7 @@ Here are listed all the important  quality markers
 ## Back end
 ![arcitecture_back_as_is](https://github.com/NasterVill/GoParty/blob/master/Resources/Diagrams/Architecture/Architecture(Back%20end).PNG)
 
-  The stair architecture (Stairway pattern) is a variation of the classical three-layer architecture with the Dependency Inversion Principle. As a result of this pattern, the system becomes more resistant to change. If you change the implementation of each level, you do not have to change the rest, if the interaction between them remains unchanged. This flexibility is achieved both by providing strong cohesion (high cohension) and weak coupling (low coupling) components of the application.
+  The stair architecture (Stairway pattern) is a variation of the classical three-layer architecture with the Dependency Inversion Principle. As a result of this pattern, the system becomes more resistant to change. If you change the implementation of each level, you do not have to change the rest, if the interaction between them remains unchanged. This flexibility is achieved both by providing strong cohension (high cohension) and weak coupling (low coupling) components of the application.
   
 ## Comparison:
   In general architectural idea was successfully implemented. But there are some issues inside of concrete layers. All of this differences are trivial and temporarily that's why it's not shown on another diagram. 
@@ -75,17 +75,17 @@ Clean architecture pattern was initially chosen because of its high flexibility 
 * Data
 * Framework
 
-First level serves to present the information to the user, second one is interracting with hin (through touches, clicks and so on), third one is responsible for buisiness logic handling, the fourth one is representing a layer for data management  and the last one is used to fetch or send data from/to some sort of framework.
+First level serves to present the information to the user, second one is interacting with him (through touches, clicks and so on), third one is responsible for business logic handling, the fourth one is representing a layer for data management  and the last one is used to fetch or send data from/to some sort of framework.
 
 ### As it is
 
 ![arcitecture_mobile_is](https://github.com/NasterVill/GoParty/blob/master/Resources/Diagrams/Architecture/Architecture(Front%20end).PNG)
 
-While developing the application, a decision was made, to combine first and second, third and fourth layers respectively in order to ease the overall development. In this "modified" architecture the first layer (User Interface) is responsible for both presenting the inforamtion and interacting with the user, the second one (Buisiness logic) handles data processing and holds application's core logic, the third layer (Data layer) is responsible for the communication with the back end application.
+While developing the application, a decision was made, to combine first and second, third and fourth layers respectively in order to ease the overall development. In this "modified" architecture the first layer (User Interface) is responsible for both presenting the inforamtion and interacting with the user, the second one (Business logic) handles data processing and holds application's core logic, the third layer (Data layer) is responsible for the communication with the back end application.
 
 ## Comparison:
 
-The architecture solution that was chosen for mobile client can be considred as a "light" clean architecture, with the interpretation, which provides an ability for easing the development and support because of lesser complexity, but, in future, this may bring some issues with logic refactoring if one will be required. Our team decided to go with this solution, because we thought, that the issues with buisiness logic should be handeled on the erlier levels of project developmnet, long before the actual code writing begins
+The architecture solution that was chosen for mobile client can be considred as a "light" clean architecture, with the interpretation, which provides an ability for easing the development and support because of lesser complexity, but, in future, this may bring some issues with logic refactoring if one will be required. Our team decided to go with this solution, because we thought, that the issues with business logic should be handeled on the earlier levels of project development, long before the actual code writing begins
 
 ## Class diagrams
 
