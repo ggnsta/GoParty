@@ -89,5 +89,5 @@ The architecture solution that was chosen for mobile client can be considred as 
 
 ## Class diagrams
 
-[Monile client](https://github.com/NasterVill/GoParty/blob/master/Resources/Diagrams/Class/Mobile_Client_Diagram.png)
-[Back end]()
+* [Monile client](https://github.com/NasterVill/GoParty/blob/master/Resources/Diagrams/Class/Mobile_Client_Diagram.png)
+* [Back end](https://github.com/NasterVill/GoParty/blob/master/Resources/Diagrams/Class/Back_end_Diagram.PNG)
