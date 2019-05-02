@@ -25,7 +25,7 @@ Sorting events by location (back end)
 This method is effective when training a developer who does not have enough experience or knowledge to solve the problem independently.
 
 
-# 3 pairs: Protasenya V. and Pankov V.
+# Third pair: Protasenya V. and Pankov V.
 
 ## Style: Ping-Pong
 
