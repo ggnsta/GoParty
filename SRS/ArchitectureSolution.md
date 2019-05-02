@@ -69,6 +69,7 @@ Clean architecture pattern was initially chosen because of its high flexibility 
 * Domain
 * Data
 * Framework
+
 First level serves to present the information to the user, second one is interracting with hin (through touches, clicks and so on), third one is responsible for buisiness logic handling, the fourth one is representing a layer for data management  and the last one is used to fetch or send data from/to some sort of framework.
 
 ### As it is
