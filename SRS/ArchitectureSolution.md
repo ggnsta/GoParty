@@ -44,9 +44,9 @@ Here are listed all the important  quality markers
 * The configuration of the application is stored on the server as an xml file.
 * Exception management with exception handlers which are included in the framework pipeline.
 ### 6. Application structure
-![structure](https://github.com/NasterVill/GoParty/blob/master/Resources/Diagrams/Structure.PNG)
+![structure](https://github.com/NasterVill/GoParty/blob/master/Resources/Diagrams/Architecture/Structure.PNG)
 ### 7. Arcitecture 'As Is' and 'To be'
-![arcitecture](https://github.com/NasterVill/GoParty/blob/master/Resources/Diagrams/Architecture(Back%20end).PNG)
+![arcitecture](https://github.com/NasterVill/GoParty/blob/master/Resources/Diagrams/Architecture/Architecture(Back%20end).PNG)
 
   The stair architecture (Stairway pattern) is a variation of the classical three-layer architecture with the Dependency Inversion Principle. As a result of this pattern, the system becomes more resistant to change. If you change the implementation of each level, you do not have to change the rest, if the interaction between them remains unchanged. This flexibility is achieved both by providing strong cohesion (high cohension) and weak coupling (low coupling) components of the application.
 ## Comparison:
