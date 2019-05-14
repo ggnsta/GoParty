@@ -34,3 +34,7 @@ A list of problems which we have faced consists of:
 
 * The lack of UI quality may be justified by the fact, that our team didn't have much design experience. It can be considered as moderate, but requires further improvements. To improve the UX we plan to produce a list of those UI components that should be changed and then create tickets respectively.
  
+### Tickets to close the debt
+* [Event subscribtion](https://trello.com/c/k98Kd2d1/63-feature-mobile-goparty23subcribeimplementation)
+* [Tags](https://trello.com/c/07IxRDfs/64-feature-mobile-goparty24tagimplenetation)
+* [Moderators](https://trello.com/c/Opo7yTFC/65-story-8-as-a-moderator-i-want-to-be-able-to-accept-decline-the-creation-of-users-events)
