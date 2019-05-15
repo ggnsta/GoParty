@@ -26,6 +26,10 @@ Application hasn't got any age restrictions which makes it target audience quite
 - Enhance profile view;
 - Make pagination of list of events;
 
+### UX improvements
+
+[ux-improvements](https://github.com/NasterVill/GoParty/tree/master/UX/Changes.md)
+
 ### Tickets
 
 - [Redistration screen division](https://trello.com/c/Q5UpvbMo/70-feature-mobile-goparty27registationscreendivision)
