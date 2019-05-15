@@ -28,7 +28,7 @@ Application hasn't got any age restrictions which makes it target audience quite
 
 ### UX improvements
 
-[ux-improvements](https://github.com/NasterVill/GoParty/tree/master/UX/Changes.md)
+- [UX-improvements](https://github.com/NasterVill/GoParty/tree/master/UX/Changes.md)
 
 ### Tickets
 
