@@ -25,3 +25,9 @@ Application hasn't got any age restrictions which makes it target audience quite
 - Divide registration screen in two separate ones;
 - Enhance profile view;
 - Make pagination of list of events;
+
+### Tickets
+
+- [Redistration screen division](https://trello.com/c/Q5UpvbMo/70-feature-mobile-goparty27registationscreendivision)
+- [Profile styling](https://trello.com/c/rvC8mhuu/69-feature-mobile-goparty26profilestylingimprovements)
+- [Event lsit pagination](https://trello.com/c/30wYlae9/68-feature-mobile-goparty25eventlistpagination)
